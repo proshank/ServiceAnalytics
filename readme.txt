@@ -1,11 +1,8 @@
-ServiceAnalytics
-===================
+# ServiceAnalytics
 
+Project to call GET service n no of time and print its response statistcs.
 
-Project to call GET service n no of time and print its response statistics
-
-Build Instructions
--------------
+###Build Instructions
 
 > Application depends on the following software
 
@@ -13,11 +10,12 @@ Build Instructions
  2. Maven version 3.1.1 or newer
 Due to these dependencies, you must perform  one-time setup tasks before building and running the application.
 
+
 > One-Time Setup Tasks
 
  1. Download and install JDK version 1.8 if necessary, you can use JDK1.7 too. 
- 	To use JDK1.7 update pom.xml "maven-compiler-plugin" configuration to 1.7.
- 2. Download and install Maven version 3.1.1 or newer if necessary. I used Maven version 3.3.9.
+ 	To use JDK1.7 update pom.xml >> "maven-compiler-plugin" >> configuration >> source & Target to 1.7.
+ 2. Download and install Maven version 3.1.1 or newer if necessary, I used Maven version 3.3.9 while working on this project.
 
 > Maven Dependencies
 

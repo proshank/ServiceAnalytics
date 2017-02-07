@@ -31,4 +31,4 @@ Due to these dependencies, you must perform  one-time setup tasks before buildin
 1. Compile application using Maven cmd: mvn clean compile
 2. You can run this application by running main method of MainController.java 
 3. Alternatively you can execute tests in MainControllerTest.java, 
-   these test cases are invoking MainController for 100, 200 requests with thread pool of 10, 50 & 100.
+   these test cases are invoking MainController for 100 requests with thread pool of 10, 50 & 100.

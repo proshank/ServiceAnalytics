@@ -8,6 +8,11 @@ package com.proshank.serviceanalytics.concurrent;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * pojo to return result of ConcurrentProccessHandler 
+ * @see com.proshank.serviceanalytics.concurrent.ConcurrentProccessHandler
+ * @author proshank
+ */
 public class Result<T> {
 	private List<T> results;
 	private List<Exception> exceptions;

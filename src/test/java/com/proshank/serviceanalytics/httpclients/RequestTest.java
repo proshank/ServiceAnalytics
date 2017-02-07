@@ -1,11 +1,11 @@
-package com.proshank.serviceanalytics;
+package com.proshank.serviceanalytics.httpclients;
 
 import java.util.logging.Logger;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.proshank.serviceanalytics.Request;
+import com.proshank.serviceanalytics.httpclients.Request;
 
 public class RequestTest {
 	private static final Logger LOGGER = Logger.getLogger(RequestTest.class.getName());

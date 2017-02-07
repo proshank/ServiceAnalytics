@@ -9,7 +9,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.proshank.serviceanalytics.Request;
+import com.proshank.serviceanalytics.httpclients.Request;
 
 public class ConcurrentProccessHandlerTest {
 	private final static Logger LOGGER = LoggerFactory.getLogger(ConcurrentProccessHandlerTest.class);

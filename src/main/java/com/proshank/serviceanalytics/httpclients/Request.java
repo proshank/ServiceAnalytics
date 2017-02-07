@@ -1,7 +1,7 @@
 /**
  * @author proshank
  */
-package com.proshank.serviceanalytics;
+package com.proshank.serviceanalytics.httpclients;
 
 import java.util.concurrent.Callable;
 

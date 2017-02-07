@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import com.proshank.serviceanalytics.concurrent.ConcurrentProccessHandler;
 import com.proshank.serviceanalytics.concurrent.Result;
+import com.proshank.serviceanalytics.httpclients.Request;
 
 /**
  * Class with main method.<br>

@@ -2,6 +2,7 @@ package com.proshank.serviceanalytics;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class MainControllerTest {
@@ -22,16 +23,19 @@ public class MainControllerTest {
 	}
 
 	@Test
+	@Ignore
 	public void test4_make_200_calls_with_10_concurrent_threads() {
 		MainController.makeCalls("http://en.wikipedia.org/wiki/Main_Page", 200, 10, 2, TimeUnit.SECONDS);
 	}
 
 	@Test
+	@Ignore
 	public void test5_make_200_calls_with_50_concurrent_threads() {
 		MainController.makeCalls("http://en.wikipedia.org/wiki/Main_Page", 200, 50, 2, TimeUnit.SECONDS);
 	}
 
 	@Test
+	@Ignore
 	public void test6_make_200_calls_with_100_concurrent_threads() {
 		MainController.makeCalls("http://en.wikipedia.org/wiki/Main_Page", 200, 100, 2, TimeUnit.SECONDS);
 	}

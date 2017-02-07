@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Utility class around DescriptiveStatistics to get/print statistics of values
+ * Utility class wrapper around DescriptiveStatistics to get/print statistics
  * 
  * @author proshank
  * @version 1.0
